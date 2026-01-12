@@ -1,0 +1,146 @@
+/* Wedding Invitation Font Faces */
+
+@font-face {
+  font-family: "Pattaya";
+  src: url("./Pattaya-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("./HelveticaNeueRoman.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("./HelveticaNeueBold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("./HelveticaNeueLight.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("./HelveticaNeueMedium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "UNI Chu truyen thong";
+  src: url("./UNI_Chu_truyen_thong.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "The Nautigal";
+  src: url("./TheNautigal-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "The Nautigal";
+  src: url("./TheNautigal-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fz Qellia";
+  src: url("./Fz_Qellia_Fix.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* CSS Custom Properties for Wedding Themes */
+:root {
+  --font-primary: "Pattaya", cursive;
+  --font-secondary: "HelveticaNeue", "Helvetica Neue", Arial, sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+}
+
+/* Utility classes for fonts */
+.font-pattaya {
+  font-family: var(--font-primary);
+}
+
+.font-helvetica {
+  font-family: var(--font-secondary);
+}
+
+.font-uni-chu {
+  font-family: "UNI Chu truyen thong", "Times New Roman", serif;
+}
+
+.font-nautigal {
+  font-family: "The Nautigal", cursive;
+}
+
+.font-fz-qellia {
+  font-family: "Fz Qellia", serif;
+}
+
+/* Chibi Template Fonts */
+@font-face {
+  font-family: "1FTV VIP Signora";
+  src: url("./1FTV-VIP-Signora-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Babylonica";
+  src: url("./Babylonica-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Uchen";
+  src: url("./Uchen-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-signora {
+  font-family: "1FTV VIP Signora", "Dancing Script", cursive;
+}
+
+.font-babylonica {
+  font-family: "Babylonica", cursive;
+}
+
+.font-uchen {
+  font-family: "Uchen", serif;
+}
