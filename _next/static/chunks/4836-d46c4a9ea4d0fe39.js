@@ -983,24 +983,7 @@
                 })
             }
 
-            function d(e) {
-                let {
-                    color: t,
-                    className: n = "block mt-4"
-                } = e;
-                return (0, a.jsx)("a", {
-                    href: "https://chungdoi.com?utm_source=guest&utm_medium=powered_by&utm_campaign=viral_acquisition",
-                    target: "_blank",
-                    rel: "noopener noreferrer",
-                    className: "text-xs opacity-50 hover:opacity-70 transition-opacity ".concat(n),
-                    style: {
-                        color: t
-                    },
-                    children: "♡ chungdoi.com"
-                })
-            }
-        },
-        54074: (e, t, n) => {
+            function d(e) {return null}},54074: (e, t, n) => {
             n.d(t, {
                 MG: () => i,
                 f5: () => r

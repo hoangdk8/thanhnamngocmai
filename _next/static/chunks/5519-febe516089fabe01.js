@@ -3978,6 +3978,14 @@
                     url: "/music/cau-hon-van-mai-huong.mp3",
                     tags: ["wedding", "vietnamese"]
                 }, {
+                    id: "custom-001",
+                    title: "Nhac nheo",
+                    artist: "Custom",
+                    duration: 267,
+                    category: "custom",
+                    url: "/music/nhacnheo.mp3",
+                    tags: ["custom"]
+                }, {
                     id: "romantic-010",
                     title: "Hơn Cả Y\xeau",
                     artist: "Đức Ph\xfac",
