@@ -416,16 +416,13 @@
   </script>
   <script>
     self.__next_f.push([1,
-      "19:{\"metadata\":[[\"$\",\"title\",\"0\",{\"children\":\"Thiệp Cưới Chú Rể \u0026 Cô Dâu | Chung Doi | Chung Đôi\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"Trân trọng kính mời bạn đến dự lễ cưới của Chú Rể và Cô Dâu vào Chủ Nhật, 26 tháng 1, 2026 tại Cầu Trại, Ngọc Thiện, Bắc Ninh\"}],[\"$\",\"meta\",\"2\",{\"name\":\"author\",\"content\":\"Chung Đôi Team\"}],[\"$\",\"link\",\"3\",{\"rel\":\"manifest\",\"href\":\"/manifest.json\",\"crossOrigin\":\"$undefined\"}],[\"$\",\"meta\",\"4\",{\"name\":\"keywords\",\"content\":\"thiep cuoi online,thiep cuoi,Chú Rể,Cô Dâu,wedding invitation,le cuoi\"}],[\"$\",\"meta\",\"5\",{\"name\":\"creator\",\"content\":\"Chung Đôi\"}],[\"$\",\"meta\",\"6\",{\"name\":\"publisher\",\"content\":\"Chung Đôi\"}],[\"$\",\"meta\",\"7\",{\"name\":\"robots\",\"content\":\"index, follow\"}],[\"$\",\"meta\",\"8\",{\"name\":\"googlebot\",\"content\":\"index, follow, max-image-preview:large\"}],[\"$\",\"meta\",\"9\",{\"name\":\"category\",\"content\":\"wedding\"}],[\"$\",\"meta\",\"10\",{\"name\":\"og:updated_time\",\"content\":\"2026-01-12T15:50:46.488Z\"}],[\"$\",\"link\",\"11\",{\"rel\":\"canonical\",\"href\":\"https://chungdoi.com/thiep-moi/892y2sqz\"}],[\"$\",\"meta\",\"12\",{\"property\":\"og:title\",\"content\":\"Thiệp Cưới Chú Rể \u0026 Cô Dâu\"}],[\"$\",\"meta\",\"13\",{\"property\":\"og:description\",\"content\":\"Trân trọng kính mời bạn đến dự lễ cưới của Chú Rể và Cô Dâu vào Chủ Nhật, 26 tháng 1, 2026 tại Cầu Trại, Ngọc Thiện, Bắc Ninh\"}],[\"$\",\"meta\",\"14\",{\"property\":\"og:url\",\"content\":\"https://chungdoi.com/thiep-moi/892y2sqz\"}],[\"$\",\"meta\",\"15\",{\"property\":\"og:site_name\",\"content\":\"Chung Doi\"}],[\"$\",\"meta\",\"16\",{\"property\":\"og:locale\",\"content\":\"vi_VN\"}],[\"$\",\"meta\",\"17\",{\"property\":\"og:image\",\"content\":\"https://api.chungdoi.com/api/og/892y2sqz\"}],[\"$\",\"meta\",\"18\",{\"property\":\"og:image:width\",\"content\":\"1200\"}],[\"$\",\"meta\",\"19\",{\"property\":\"og:image:height\",\"content\":\"630\"}],[\"$\",\"meta\",\"20\",{\"property\":\"og:image:alt\",\"content\":\"Thiệp Cưới Chú Rể \u0026 Cô Dâu\"}],[\"$\",\"meta\",\"21\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"22\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"23\",{\"name\":\"twitter:title\",\"content\":\"Thiệp Cưới Chú Rể \u0026 Cô Dâu\"}],[\"$\",\"meta\",\"24\",{\"name\":\"twitter:description\",\"content\":\"Trân trọng kính mời bạn đến dự lễ cưới của Chú Rể và Cô Dâu vào Chủ Nhật, 26 tháng 1, 2026 tại Cầu Trại, Ngọc Thiện, Bắc Ninh\"}],[\"$\",\"meta\",\"25\",{\"name\":\"twitter:image\",\"content\":\"https://api.chungdoi.com/api/og/892y2sqz\"}],[\"$\",\"link\",\"26\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"type\":\"image/x-icon\",\"sizes\":\"48x48\"}],[\"$\",\"link\",\"27\",{\"rel\":\"icon\",\"href\":\"/icon-v2.png\"}],[\"$\",\"link\",\"28\",{\"rel\":\"icon\",\"href\":\"/icon-512-v2.png\",\"sizes\":\"512x512\",\"type\":\"image/png\"}],[\"$\",\"link\",\"29\",{\"rel\":\"icon\",\"href\":\"/icon-180-v2.png\",\"sizes\":\"180x180\",\"type\":\"image/png\"}],[\"$\",\"link\",\"30\",{\"rel\":\"icon\",\"href\":\"/icon-48-v2.png\",\"sizes\":\"48x48\",\"type\":\"image/png\"}],[\"$\",\"link\",\"31\",{\"rel\":\"apple-touch-icon\",\"href\":\"/apple-touch-icon-v2.png\"}],[\"$\",\"link\",\"32\",{\"rel\":\"apple-touch-icon\",\"href\":\"/apple-touch-icon-v2.png\",\"sizes\":\"180x180\",\"type\":\"image/png\"}],[\"$\",\"link\",\"33\",{\"rel\":\"apple-touch-icon-precomposed\",\"href\":\"/apple-touch-icon-v2.png\"}]],\"error\":null,\"digest\":\"$undefined\"}\n"
+      "19:{\"metadata\":[[\"$\",\"title\",\"0\",{\"children\":\"Thiệp Cưới Chú Rể \u0026 Cô Dâu | Chung Doi | Chung Đôi\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"Trân trọng kính mời bạn đến dự lễ cưới của Chú Rể và Cô Dâu vào Chủ Nhật, 26 tháng 1, 2026 tại Cầu Trại, Ngọc Thiện, Bắc Ninh\"}],[\"$\",\"meta\",\"2\",{\"name\":\"author\",\"content\":\"Chung Đôi Team\"}],[\"$\",\"link\",\"3\",{\"rel\":\"manifest\",\"href\":\"/manifest.json\",\"crossOrigin\":\"$undefined\"}],[\"$\",\"meta\",\"4\",{\"name\":\"keywords\",\"content\":\"thiep cuoi online,thiep cuoi,Chú Rể,Cô Dâu,wedding invitation,le cuoi\"}],[\"$\",\"meta\",\"5\",{\"name\":\"creator\",\"content\":\"Chung Đôi\"}],[\"$\",\"meta\",\"6\",{\"name\":\"publisher\",\"content\":\"Chung Đôi\"}],[\"$\",\"meta\",\"7\",{\"name\":\"robots\",\"content\":\"index, follow\"}],[\"$\",\"meta\",\"8\",{\"name\":\"googlebot\",\"content\":\"index, follow, max-image-preview:large\"}],[\"$\",\"meta\",\"9\",{\"name\":\"category\",\"content\":\"wedding\"}],[\"$\",\"meta\",\"10\",{\"name\":\"og:updated_time\",\"content\":\"2026-01-12T15:50:46.488Z\"}],[\"$\",\"link\",\"11\",{\"rel\":\"canonical\",\"href\":\"https://chungdoi.com/thiep-moi/892y2sqz\"}],[\"$\",\"meta\",\"12\",{\"property\":\"og:title\",\"content\":\"Thiệp Cưới Chú Rể \u0026 Cô Dâu\"}],[\"$\",\"meta\",\"13\",{\"property\":\"og:description\",\"content\":\"Trân trọng kính mời bạn đến dự lễ cưới của Chú Rể và Cô Dâu vào Chủ Nhật, 26 tháng 1, 2026 tại Cầu Trại, Ngọc Thiện, Bắc Ninh\"}],[\"$\",\"meta\",\"14\",{\"property\":\"og:url\",\"content\":\"https://chungdoi.com/thiep-moi/892y2sqz\"}],[\"$\",\"meta\",\"15\",{\"property\":\"og:site_name\",\"content\":\"Chung Doi\"}],[\"$\",\"meta\",\"16\",{\"property\":\"og:locale\",\"content\":\"vi_VN\"}],[\"$\",\"meta\",\"17\",{\\"property\\\":\\\"og:image\\\",\\\"content\\\":\\\"https://tdrloffjutvbvnfjalxl.supabase.co/storage/v1/object/public/thiepcuoi/anh1.jpg?v=2\\"}],[\"$\",\"meta\",\"18\",{\"property\":\"og:image:width\",\"content\":\"1200\"}],[\"$\",\"meta\",\"19\",{\"property\":\"og:image:height\",\"content\":\"630\"}],[\"$\",\"meta\",\"20\",{\"property\":\"og:image:alt\",\"content\":\"Thiệp Cưới Chú Rể \u0026 Cô Dâu\"}],[\"$\",\"meta\",\"21\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"22\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"23\",{\"name\":\"twitter:title\",\"content\":\"Thiệp Cưới Chú Rể \u0026 Cô Dâu\"}],[\"$\",\"meta\",\"24\",{\"name\":\"twitter:description\",\"content\":\"Trân trọng kính mời bạn đến dự lễ cưới của Chú Rể và Cô Dâu vào Chủ Nhật, 26 tháng 1, 2026 tại Cầu Trại, Ngọc Thiện, Bắc Ninh\"}],[\"$\",\"meta\",\"25\",{\\"name\\\":\\\"twitter:image\\\",\\\"content\\\":\\\"https://tdrloffjutvbvnfjalxl.supabase.co/storage/v1/object/public/thiepcuoi/anh1.jpg?v=2\\"}],[\"$\",\"link\",\"26\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"type\":\"image/x-icon\",\"sizes\":\"48x48\"}],[\"$\",\"link\",\"27\",{\"rel\":\"icon\",\"href\":\"/icon-v2.png\"}],[\"$\",\"link\",\"28\",{\"rel\":\"icon\",\"href\":\"/icon-512-v2.png\",\"sizes\":\"512x512\",\"type\":\"image/png\"}],[\"$\",\"link\",\"29\",{\"rel\":\"icon\",\"href\":\"/icon-180-v2.png\",\"sizes\":\"180x180\",\"type\":\"image/png\"}],[\"$\",\"link\",\"30\",{\"rel\":\"icon\",\"href\":\"/icon-48-v2.png\",\"sizes\":\"48x48\",\"type\":\"image/png\"}],[\"$\",\"link\",\"31\",{\"rel\":\"apple-touch-icon\",\"href\":\"/apple-touch-icon-v2.png\"}],[\"$\",\"link\",\"32\",{\"rel\":\"apple-touch-icon\",\"href\":\"/apple-touch-icon-v2.png\",\"sizes\":\"180x180\",\"type\":\"image/png\"}],[\"$\",\"link\",\"33\",{\"rel\":\"apple-touch-icon-precomposed\",\"href\":\"/apple-touch-icon-v2.png\"}]],\"error\":null,\"digest\":\"$undefined\"}\n"
     ])
   </script>
   <script>
     self.__next_f.push([1, "21:{\"metadata\":\"$19:metadata\",\"error\":null,\"digest\":\"$undefined\"}\n"])
   </script>
-  <title>Thiệp Cưới Chú Rể &amp; Cô Dâu | Chung Doi | Chung Đôi</title>
-  <meta name="description"
-    content="Trân trọng kính mời bạn đến dự lễ cưới của Chú Rể và Cô Dâu vào Chủ Nhật, 26 tháng 1, 2026 tại Cầu Trại, Ngọc Thiện, Bắc Ninh" />
-  <meta name="author" content="Chung Đôi Team" />
+      <meta name="author" content="Chung Đôi Team" />
   <link rel="manifest" href="/manifest.json" />
   <meta name="keywords" content="thiep cuoi online,thiep cuoi,Chú Rể,Cô Dâu,wedding invitation,le cuoi" />
   <meta name="creator" content="Chung Đôi" />
@@ -433,25 +430,8 @@
   <meta name="robots" content="index, follow" />
   <meta name="googlebot" content="index, follow, max-image-preview:large" />
   <meta name="category" content="wedding" />
-  <meta name="og:updated_time" content="2026-01-12T15:50:46.488Z" />
-  <link rel="canonical" href="https://chungdoi.com/thiep-moi/892y2sqz" />
-  <meta property="og:title" content="Thiệp Cưới Chú Rể &amp; Cô Dâu" />
-  <meta property="og:description"
-    content="Trân trọng kính mời bạn đến dự lễ cưới của Chú Rể và Cô Dâu vào Chủ Nhật, 26 tháng 1, 2026 tại Cầu Trại, Ngọc Thiện, Bắc Ninh" />
-  <meta property="og:url" content="https://chungdoi.com/thiep-moi/892y2sqz" />
-  <meta property="og:site_name" content="Chung Doi" />
-  <meta property="og:locale" content="vi_VN" />
-  <meta property="og:image" content="https://api.chungdoi.com/api/og/892y2sqz" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Thiệp Cưới Chú Rể &amp; Cô Dâu" />
-  <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Thiệp Cưới Chú Rể &amp; Cô Dâu" />
-  <meta name="twitter:description"
-    content="Trân trọng kính mời bạn đến dự lễ cưới của Chú Rể và Cô Dâu vào Chủ Nhật, 26 tháng 1, 2026 tại Cầu Trại, Ngọc Thiện, Bắc Ninh" />
-  <meta name="twitter:image" content="https://api.chungdoi.com/api/og/892y2sqz" />
-  <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="48x48" />
+    <link rel="canonical" href="https://chungdoi.com/thiep-moi/892y2sqz" />
+                              <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="48x48" />
   <link rel="icon" href="/icon-v2.png" />
   <link rel="icon" href="/icon-512-v2.png" sizes="512x512" type="image/png" />
   <link rel="icon" href="/icon-180-v2.png" sizes="180x180" type="image/png" />
@@ -503,3 +483,5 @@
 </body>
 
 </html>
+
+
