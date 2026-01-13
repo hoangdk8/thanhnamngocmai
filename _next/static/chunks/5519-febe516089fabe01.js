@@ -14406,7 +14406,14 @@
                             }), (0, r.jsx)("div", {
                                 className: "flex items-center justify-center",
                                 children: (0, r.jsx)("img", {
-                                    src: "https://cdn.discordapp.com/attachments/1345969302565552239/1460468665354031257/IMG_0717.jpg?ex=696706f0&is=6965b570&hm=dbd5a1018d11ed6174cd7c4c53dd22a6f9db3824640d22a4fbe53243744aed7a&",
+                                    src: function () {
+                                        try {
+                                            let e = window.location.pathname || "";
+                                            return e.includes("/ngocmai") ? "https://tdrloffjutvbvnfjalxl.supabase.co/storage/v1/object/public/thiepcuoi/QR2.jpg" : e.includes("/thanhnam") ? "https://tdrloffjutvbvnfjalxl.supabase.co/storage/v1/object/public/thiepcuoi/QR1.jpg" : "https://tdrloffjutvbvnfjalxl.supabase.co/storage/v1/object/public/thiepcuoi/QR1.jpg"
+                                        } catch (e) {
+                                            return "https://tdrloffjutvbvnfjalxl.supabase.co/storage/v1/object/public/thiepcuoi/QR1.jpg"
+                                        }
+                                    }(),
                                     alt: "QR Code",
                                     className: "w-48 h-48 object-contain rounded-lg border border-gray-200"
                                 })
