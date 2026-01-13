@@ -896,7 +896,7 @@
                                 wordWrap: "break-word",
                                 overflowWrap: "break-word"
                             },
-                            children: n.address || "Nh\xe0 h\xe0ng ABC, 123 Nguyễn Huệ, Q.1"
+                            children: ("undefined" != typeof window && window.location.pathname.includes("ngocmai") ? "Thôn Ngùi, Ngọc Thiện, Bắc Ninh" : n.address || "Nhà hàng ABC, 123 Nguyễn Huệ, Q.1")
                         })
                     }), (t || !1 !== n.showMap && (n.mapAddress || n.address)) && (0, a.jsx)(s.$, {
                         latitude: n.latitude,
@@ -948,9 +948,9 @@
                                 cursor: "pointer"
                             },
                             onClick: () => {
-                                window.open("https://maps.app.goo.gl/uzyCyjB7utCakDVv9", "_blank", "noopener")
+                                window.open(x, "_blank", "noopener")
                             },
-                            children: n.address || "Nh\xe0 h\xe0ng ABC, 123 Nguyễn Huệ, Q.1"
+                            children: ("undefined" != typeof window && window.location.pathname.includes("ngocmai") ? "Thôn Ngùi, Ngọc Thiện, Bắc Ninh" : n.address || "Nhà hàng ABC, 123 Nguyễn Huệ, Q.1")
                         })]
                     }), (t || !1 !== n.showMap && (n.mapAddress || n.address)) && (0, a.jsxs)("div", {
                         className: "relative flex flex-col items-center gap-4 md:gap-5",
@@ -1158,6 +1158,8 @@
                     fallbackText: b = "Nhập link Google Maps ở tr\xean để hiển thị bản đồ",
                     showFallback: N = !0
                 } = e, y = "true" === (0, o.useSearchParams)().get("screenshot"), f = "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3715.3399293863226!2d106.015316!3d21.376516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDIyJzM1LjUiTiAxMDbCsDAwJzU1LjEiRQ!5e0!3m2!1svi!2s!4v1768283142573!5m2!1svi!2s";
+                let w = "undefined" != typeof window && window.location.pathname.includes("ngocmai"), v = w ? "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1079.9541494407486!2d106.0193469!3d21.3705423!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313516d654850ed5%3A0xbe0c26ea8f69fc4d!2zSGFpciBTYWxvbiBI4bqhbmggSGnhu4Nu!5e1!3m2!1svi!2s!4v1768304310836!5m2!1svi!2s" : f, x = w ? "https://maps.app.goo.gl/BEZCoLR8GpZataP3A" : "https://maps.app.goo.gl/uzyCyjB7utCakDVv9";
+                f = v;
                 return f && y ? (0, a.jsx)("div", {
                     className: h,
                     style: {
@@ -1179,7 +1181,7 @@
                         cursor: "pointer"
                     },
                     onClick: () => {
-                        window.open("https://maps.app.goo.gl/uzyCyjB7utCakDVv9", "_blank", "noopener")
+                        window.open(x, "_blank", "noopener")
                     },
                     children: (0, a.jsx)("iframe", {
                         className: "w-full h-full",
