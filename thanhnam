@@ -1441,7 +1441,7 @@
                 class="relative flex h-[472px] md:h-[650px] flex-col items-center justify-center text-center z-10">
                 <div class="relative z-10 flex flex-col items-center gap-6 px-6 md:px-10">
                   <div class="font-uni-chu text-[50px] md:text-[70px]" style="color: rgb(93, 106, 87);">
-                    <div class="font-uni-chu text-[50px] md:text-[70px] leading-[75px] md:leading-[105px]">Thành Namw
+                    <div class="font-uni-chu text-[50px] md:text-[70px] leading-[75px] md:leading-[105px]">Thành Nam
                     </div>
                     <div class="mt-1 text-[37px] md:text-[50px] leading-[56px] md:leading-[75px]"
                       style="color: rgb(93, 106, 87);">&amp;</div>
@@ -2159,7 +2159,7 @@
                 <div style="background:linear-gradient(to left, transparent, #697a62)"
                   class="jsx-9fed08a7f35c6a70 w-10 h-px"></div>
               </div>
-              <p style="color:rgba(93, 106, 87, 0.7)" class="jsx-9fed08a7f35c6a70 text-sm mb-5">26 tháng 1, 2026</p>
+              <p style="color:rgba(93, 106, 87, 0.7)" class="jsx-9fed08a7f35c6a70 text-sm mb-5">25 tháng 1, 2026</p>
               <div class="jsx-9fed08a7f35c6a70 mb-6">
                 <p style="color:rgba(93, 106, 87, 0.7)" class="jsx-9fed08a7f35c6a70 text-sm font-light mb-2">Thân Mời
                 </p>
