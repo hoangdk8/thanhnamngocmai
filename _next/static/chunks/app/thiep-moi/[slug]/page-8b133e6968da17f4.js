@@ -156,7 +156,57 @@
                                 return
                             }
                             let n = await t.json();
-                            b(n.invitation), n.viewLimitExceeded && R(!0), n.trialExpired && z(!0);
+                            b({
+                                ...n.invitation,
+                                data: {
+                                    ...n.invitation.data,
+                                    comments: []
+                                }
+                            });
+
+                            n.viewLimitExceeded && R(!0);
+                            n.trialExpired && z(!0);
+
+                            (async () => {
+                                try {
+                                    const {
+                                        data,
+                                        error
+                                    } = await window.supabase
+                                        .from("guestbook_messages")
+                                        .select("name, message, created_at")
+                                        .eq("invitation_slug", h)
+                                        .order("created_at", {
+                                            ascending: true
+                                        });
+
+                                    if (error) {
+                                        console.error("Load guestbook error:", error);
+                                        return;
+                                    }
+
+                                    const comments = (data || []).map(item => ({
+                                        name: item.name,
+                                        message: item.message,
+                                        createdAt: item.created_at
+                                    }));
+
+                                    b(t =>
+                                        t ?
+                                        {
+                                            ...t,
+                                            data: {
+                                                ...t.data,
+                                                comments
+                                            }
+                                        } :
+                                        t
+                                    );
+
+                                } catch (err) {
+                                    console.error("Load guestbook failed:", err);
+                                }
+                            })();
                             let i = T();
                             fetch("".concat(C.$.apiUrl, "/api/invite/").concat(h, "/view"), {
                                 method: "POST",
@@ -187,8 +237,7 @@
 
                     try {
                         b(t =>
-                            t ?
-                            {
+                            t ? {
                                 ...t,
                                 data: e
                             } :
