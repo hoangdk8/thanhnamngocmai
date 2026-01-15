@@ -116,10 +116,10 @@
                 }
             }
             let s = e => {
-                    let t = e.type.toLowerCase(),
-                        n = e.name.toLowerCase();
-                    return t.includes("heic") || t.includes("heif") || n.endsWith(".heic") || n.endsWith(".heif")
-                },
+                let t = e.type.toLowerCase(),
+                    n = e.name.toLowerCase();
+                return t.includes("heic") || t.includes("heif") || n.endsWith(".heic") || n.endsWith(".heif")
+            },
                 c = async e => {
                     let t = (await n.e(2e3).then(n.t.bind(n, 17977, 23))).default,
                         a = await t({
@@ -372,22 +372,22 @@
 
             function l(e) {
                 let t = {
-                        name: e.groomName,
-                        fullName: e.groomFullName,
-                        birthOrder: e.groomBirthOrder,
-                        parentTitle: e.groomParentTitle,
-                        father: e.groomFather,
-                        mother: e.groomMother,
-                        address: e.groomAddress,
-                        photo: e.groomPhoto,
-                        photoCrop: e.groomPhotoCrop,
-                        bankBin: e.groomBankBin,
-                        bankCode: e.groomBankCode,
-                        bankName: e.groomBankName,
-                        bankLogo: e.groomBankLogo,
-                        accountNumber: e.groomAccountNumber,
-                        accountName: e.groomAccountName
-                    },
+                    name: e.groomName,
+                    fullName: e.groomFullName,
+                    birthOrder: e.groomBirthOrder,
+                    parentTitle: e.groomParentTitle,
+                    father: e.groomFather,
+                    mother: e.groomMother,
+                    address: e.groomAddress,
+                    photo: e.groomPhoto,
+                    photoCrop: e.groomPhotoCrop,
+                    bankBin: e.groomBankBin,
+                    bankCode: e.groomBankCode,
+                    bankName: e.groomBankName,
+                    bankLogo: e.groomBankLogo,
+                    accountNumber: e.groomAccountNumber,
+                    accountName: e.groomAccountName
+                },
                     n = {
                         name: e.brideName,
                         fullName: e.brideFullName,
@@ -433,20 +433,20 @@
                 e$: () => i
             });
             let a = {
-                    SONGLONG_RED: "songlong_red",
-                    SONGLONG_GREEN: "songlong_green",
-                    SONGLONG_BLUE: "songlong_blue",
-                    LONGPHUNG_RED: "longphung_red",
-                    LONGPHUNG_GREEN: "longphung_green",
-                    LONGPHUNG_BLUE: "longphung_blue",
-                    LONGPHUNG_BLACK: "longphung_black",
-                    VUONXUAN_RED: "vuonxuan_red",
-                    VUONXUAN_GREEN: "vuonxuan_green",
-                    VUONXUAN_BLUE: "vuonxuan_blue",
-                    ANHDAO_PINK: "anhdao_pink",
-                    CHIBI_RED: "chibi_red",
-                    THANHDIEP_GREEN: "thanhdiep_green"
-                },
+                SONGLONG_RED: "songlong_red",
+                SONGLONG_GREEN: "songlong_green",
+                SONGLONG_BLUE: "songlong_blue",
+                LONGPHUNG_RED: "longphung_red",
+                LONGPHUNG_GREEN: "longphung_green",
+                LONGPHUNG_BLUE: "longphung_blue",
+                LONGPHUNG_BLACK: "longphung_black",
+                VUONXUAN_RED: "vuonxuan_red",
+                VUONXUAN_GREEN: "vuonxuan_green",
+                VUONXUAN_BLUE: "vuonxuan_blue",
+                ANHDAO_PINK: "anhdao_pink",
+                CHIBI_RED: "chibi_red",
+                THANHDIEP_GREEN: "thanhdiep_green"
+            },
                 r = ["Chủ nhật", "Thứ hai", "Thứ ba", "Thứ tư", "Thứ năm", "Thứ s\xe1u", "Thứ bảy"],
                 o = {
                     smileys: {
@@ -494,6 +494,9 @@
                 ZN: () => d.Z
             });
             var a = n(28401);
+            const isNgocMai =
+                typeof window !== "undefined" &&
+                window.location.pathname.includes("/ngocmai");
             let r = {
                 [a.Y4.SONGLONG_RED]: {
                     groomName: "Minh Khang",
@@ -563,12 +566,12 @@
                     brideBirthOrder: "Con G\xe1i"
                 },
                 [a.Y4.VUONXUAN_GREEN]: {
-                    groomName: "Thành Nam",
-                    brideName: "Ngọc Mai",
-                    groomFullName: "Nguyễn Thành Nam",
-                    brideFullName: "Giáp Thị Ngọc Mai",
-                    groomBirthOrder: "Con Trai",
-                    brideBirthOrder: "Con G\xe1i"
+                    groomName: isNgocMai ? "Ngọc Mai" : "Thành Nam",
+                    brideName: isNgocMai ? "Thành Nam" : "Ngọc Mai",
+                    groomFullName: isNgocMai ? "Giáp Thị Ngọc Mai" : "Nguyễn Thành Nam",
+                    brideFullName: isNgocMai ? "Nguyễn Thành Nam" : "Giáp Thị Ngọc Mai",
+                    groomBirthOrder: isNgocMai ? "Con Gái" : "Con Trai",
+                    brideBirthOrder: isNgocMai ? "Con Trai" : "Con Gái"
                 },
                 [a.Y4.VUONXUAN_BLUE]: {
                     groomName: "Tuấn Kiệt",
@@ -669,16 +672,16 @@
                 return (0, c.useEffect)(() => {
                     if (!e || !a.current) return void o(window.innerWidth >= 768 ? n : t);
                     let r = () => {
-                            var r;
-                            let i = (null == (r = a.current) ? void 0 : r.offsetWidth) || 0;
-                            if (0 === i) return;
-                            let l = window.innerWidth >= 768 ? n : t,
-                                s = Math.max(12, .5 * l),
-                                c = document.createElement("span");
-                            c.style.visibility = "hidden", c.style.position = "absolute", c.style.whiteSpace = "nowrap", c.style.fontSize = "".concat(l, "px"), c.style.fontFamily = 'ui-serif, Georgia, Cambria, "Times New Roman", Times, serif', c.textContent = e, document.body.appendChild(c);
-                            let m = c.offsetWidth;
-                            document.body.removeChild(c), m > i ? o(Math.round(Math.max(s, i / m * l * .95))) : o(l)
-                        },
+                        var r;
+                        let i = (null == (r = a.current) ? void 0 : r.offsetWidth) || 0;
+                        if (0 === i) return;
+                        let l = window.innerWidth >= 768 ? n : t,
+                            s = Math.max(12, .5 * l),
+                            c = document.createElement("span");
+                        c.style.visibility = "hidden", c.style.position = "absolute", c.style.whiteSpace = "nowrap", c.style.fontSize = "".concat(l, "px"), c.style.fontFamily = 'ui-serif, Georgia, Cambria, "Times New Roman", Times, serif', c.textContent = e, document.body.appendChild(c);
+                        let m = c.offsetWidth;
+                        document.body.removeChild(c), m > i ? o(Math.round(Math.max(s, i / m * l * .95))) : o(l)
+                    },
                         i = setTimeout(r, 0),
                         l = () => r();
                     return window.addEventListener("resize", l), () => {
@@ -700,11 +703,11 @@
                     i(!0);
                     try {
                         let e = {
-                                id: Date.now().toString(),
-                                name: a.name.trim(),
-                                message: a.message.trim(),
-                                timestamp: new Date().toISOString()
-                            },
+                            id: Date.now().toString(),
+                            name: a.name.trim(),
+                            message: a.message.trim(),
+                            timestamp: new Date().toISOString()
+                        },
                             o = [...t, e];
                         n(o), r({
                             name: "",
@@ -779,48 +782,48 @@
                 r = n(12115),
                 o = n(28401);
             let i = (0, r.memo)(function (e) {
-                    let {
-                        onEmojiSelect: t,
-                        maxEmojis: n = 80,
-                        buttonColor: r
-                    } = e, i = Object.values(o.Sb).flatMap(e => e.emojis).slice(0, n), l = e => {
-                        t(e), document.activeElement instanceof HTMLElement && document.activeElement.blur()
-                    };
-                    return (0, a.jsxs)("div", {
-                        className: "dropdown dropdown-top",
+                let {
+                    onEmojiSelect: t,
+                    maxEmojis: n = 80,
+                    buttonColor: r
+                } = e, i = Object.values(o.Sb).flatMap(e => e.emojis).slice(0, n), l = e => {
+                    t(e), document.activeElement instanceof HTMLElement && document.activeElement.blur()
+                };
+                return (0, a.jsxs)("div", {
+                    className: "dropdown dropdown-top",
+                    children: [(0, a.jsx)("div", {
+                        tabIndex: 0,
+                        role: "button",
+                        className: "flex items-center hover:scale-110 transition-transform cursor-pointer px-2 py-1 rounded hover:bg-white/20",
+                        style: r ? {
+                            color: r
+                        } : void 0,
+                        title: "Ch\xe8n biểu tượng",
+                        children: "\uD83D\uDE0A"
+                    }), (0, a.jsxs)("div", {
+                        tabIndex: 0,
+                        className: "dropdown-content card card-sm bg-white rounded-lg shadow-2xl border border-gray-200 z-50 w-72 md:w-80 mb-2",
                         children: [(0, a.jsx)("div", {
-                            tabIndex: 0,
-                            role: "button",
-                            className: "flex items-center hover:scale-110 transition-transform cursor-pointer px-2 py-1 rounded hover:bg-white/20",
-                            style: r ? {
-                                color: r
-                            } : void 0,
-                            title: "Ch\xe8n biểu tượng",
-                            children: "\uD83D\uDE0A"
-                        }), (0, a.jsxs)("div", {
-                            tabIndex: 0,
-                            className: "dropdown-content card card-sm bg-white rounded-lg shadow-2xl border border-gray-200 z-50 w-72 md:w-80 mb-2",
-                            children: [(0, a.jsx)("div", {
-                                className: "p-3 border-b border-gray-200",
-                                children: (0, a.jsx)("h3", {
-                                    className: "font-medium text-gray-700",
-                                    children: "Ch\xe8n biểu tượng"
-                                })
-                            }), (0, a.jsx)("div", {
-                                className: "p-2 max-h-64 overflow-y-auto",
-                                children: (0, a.jsx)("div", {
-                                    className: "grid grid-cols-8 gap-1",
-                                    children: i.map((e, t) => (0, a.jsx)("button", {
-                                        onClick: () => l(e),
-                                        className: "p-2 hover:bg-gray-100 rounded text-lg hover:scale-110 transition-transform",
-                                        title: e,
-                                        children: e
-                                    }, t))
-                                })
-                            })]
+                            className: "p-3 border-b border-gray-200",
+                            children: (0, a.jsx)("h3", {
+                                className: "font-medium text-gray-700",
+                                children: "Ch\xe8n biểu tượng"
+                            })
+                        }), (0, a.jsx)("div", {
+                            className: "p-2 max-h-64 overflow-y-auto",
+                            children: (0, a.jsx)("div", {
+                                className: "grid grid-cols-8 gap-1",
+                                children: i.map((e, t) => (0, a.jsx)("button", {
+                                    onClick: () => l(e),
+                                    className: "p-2 hover:bg-gray-100 rounded text-lg hover:scale-110 transition-transform",
+                                    title: e,
+                                    children: e
+                                }, t))
+                            })
                         })]
-                    })
-                }),
+                    })]
+                })
+            }),
                 l = (0, r.memo)(function (e) {
                     let {
                         onSuggestionSelect: t,
@@ -983,7 +986,8 @@
                 })
             }
 
-            function d(e) {return null}},54074: (e, t, n) => {
+            function d(e) { return null }
+        }, 54074: (e, t, n) => {
             n.d(t, {
                 MG: () => i,
                 f5: () => r
