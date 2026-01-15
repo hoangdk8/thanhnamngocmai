@@ -93,7 +93,7 @@
                     if (!e) return "";
                     let t = e.trim().split(/\s+/);
                     return t[t.length - 1] || e
-                }, X = H(J.name) || ((null == v || null == (t = v.data) ? void 0 : t.brideFirst) ? "C\xf4 D\xe2u" : "Ch\xfa Rể"), q = H(K.name) || ((null == v || null == (n = v.data) ? void 0 : n.brideFirst) ? "Ch\xfa Rể" : "C\xf4 D\xe2u");
+                }, X = H(J.name) || ((null == v || null == (t = v.data) ? void 0 : t.brideFirst) ? "Ngọc Mai" : "Thành Nam"), q = H(K.name) || ((null == v || null == (n = v.data) ? void 0 : n.brideFirst) ? "Thành Nam" : "Ngọc Mai");
                 (0, a.useEffect)(() => {
                     var e;
                     let t = null == v || null == (e = v.data) ? void 0 : e.musicTrackId;
